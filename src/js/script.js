@@ -8,3 +8,7 @@ let slider = $(document).ready(function () {
   });
 });
 
+$('.header__burger').click(function(){
+ $('.header__burger').toggleClass('active');
+ $('.mobile').toggleClass('active');
+})
